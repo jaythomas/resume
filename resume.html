@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #2d7cc2;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #2d7cc2;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #4290d6;
+  }
+  /* h2:hover { */
+  /*     background-color: #2d7cc2; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #2d7cc2;
+  }
+  a:hover, a:active {
+      background-color: #2d7cc2;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="jay-thomas">Jay Thomas</h1>
+<blockquote>
+<p>(An up-to-date copy of this resume’s source code</p>
+<p>can be found at <a href="https://github.com/jaythomas/resume" class="uri" target="_blank">https://github.com/jaythomas/resume</a>.)</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>I’m fortunate that I get to do what I love as my career. My aim is to be employed by a company that values the quality of their software and allows me to be proactive in integrating the best tools for the job.</p>
+</blockquote>
+<hr />
+<h2 id="guiding-principles">Guiding Principles</h2>
+<ul>
+<li><strong>Innovation in my ideas.</strong> I’m always trying out new things and working to keep my toolset sharp.</li>
+<li><strong>Thoroughness in my code.</strong> One of the most important parts of writing code is feeling proud that what you’ve written not only does the expected behavior, but goes beyond the here and now. Test-driven development is one example of this. I often set a high standard in my tests, forcing myself to account for all the many ways a user can break the code.</li>
+<li><strong>Cooperation with my team.</strong> I like to know that I’m working with standardized practices and design patterns. It’s nearly impossible to be successful when developers are not on the same page with design concepts. For example, I like to use the principles of <a href="http://12factor.net/" target="_blank">The Twelve-Factor App</a> for web application platforms and <a href="https://semver.org/" target="_blank">semVer</a> for my versioning.</li>
+</ul>
+<h2 id="experience">Experience</h2>
+<p><strong>Full stack developer and engineer, Dorsata Inc. (2 years)</strong></p>
+<ul>
+<li>Migrated code from jQuery/AngularJS to Vue.js.</li>
+<li>Migrated frontend from rails 3 to webpack with babel.</li>
+<li>Built open source tools to ease developers with migrating legacy JS code.
+<ul>
+<li><a href="https://github.com/jaythomas/vue-state-tree" target="_blank">vue-state-tree</a> - A lightweight yet scalable state management solution that leverages Vue’s observability engine. Unlike Vuex, this solution makes your state tree agnostic of the UI framework so that it is interoperable with apps that are simultaneously using multiple frameworks – possibly in a transitory phase of migrating from Ember/AngularJS to Vue.js.</li>
+<li><a href="https://github.com/jaythomas/angular-initializer" target="_blank">angular-initializer</a> - A library for building out a module dependency tree with a legacy AngularJS app. This allows you to do rapid unit testing without tons of boilerplate in your spec files as the dependencies become self-defined.</li>
+</ul></li>
+</ul>
+<p><strong>Full stack developer and engineer, ChartIQ (2 years)</strong></p>
+<ul>
+<li>Developed canvas-based <a href="https://demo.chartiq.com/" target="_blank">charting software</a>, and helped formalize development processes around the product.</li>
+<li>Migrated legacy applications from AngularJS to Vue.</li>
+<li>Instilled automated testing and code coverage in products company wide.</li>
+<li>Provided consulting for business clients, building multi-chart integrations and dashboards for companies such as <a href="https://www.etoro.com/" target="_blank">eToro</a>.</li>
+<li>Provided developer training and mentoring.</li>
+<li>Improved stability and performance on a NodeJS backend with high velocity cryptocurrency trading.</li>
+<li>Worked with devops to create AWS auto-scaling for SAAS products.</li>
+<li>Built web application integrations for the Electron-based <a href="https://www.chartiq.com/finsemble/" target="_blank">Finsemble</a> desktop.</li>
+</ul>
+<p><strong>Full stack developer and engineer, SingleComm LLC (2.5 years)</strong></p>
+<ul>
+<li>Built the company’s flagship web application using technologies such as AngularJS, Webpack, and WebRTC.</li>
+<li>Lead developer in a team of 7, responsible for delegating tasks and ensuring code quality.</li>
+<li>Helped build the backend API layer using technologies such as Ruby on Rails and Lua for a unique, high-performance, and low-latency RESTful server.</li>
+<li>Created a roadmap for transitioning the web application from AngularJS to Angular.</li>
+<li>Formalized design patterns across applications.</li>
+<li>Created setup for continuous integrations.</li>
+<li>Designed tools and scripts for continuous deployment.</li>
+</ul>
+<p><strong>Web designer, freelance (3 years)</strong></p>
+<ul>
+<li>Designed websites based on client specifications with tools such as Drupal, Wordpress, Ruby on Rails, JQuery, and Sinatra.</li>
+<li>Developed a behavior of self-teaching.</li>
+</ul>
+<p><strong>System administrator, Network Techs Inc. and Tailored Data Solutions LLC (6 years)</strong></p>
+<ul>
+<li>System administrator and devops for small businesses.</li>
+<li>Worked with in a wide range of environments from bare metal servers, to VMs and cloud-based solutions.</li>
+</ul>
+<h2 id="tools-and-frameworks">Tools and Frameworks</h2>
+<ul>
+<li>JavaScript/NodeJS – Webpack, Babel, Gulp, Vue.js, Express, AngularJS, React, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, CoffeeScript</li>
+<li>Testing frameworks - Jest, Cypress, Ava, Cucumber, WebdriverIO, Karma, Jasmine, Rspec</li>
+<li>Ruby – Ruby on Rails, Active Record, Active Merchant, Sinatra, Rubocop</li>
+<li>Elixir – Phoenix, GenServer</li>
+<li>Rust – My current language of choice for hobby projects. I love the thread safety of Rust and would love to undertake a WebAssembly project at some point.</li>
+<li>Styling – Bootstrap, CSS3, SASS and LESS</li>
+<li>Cloud services – Amazon AWS, Heroku, Digital Ocean</li>
+<li>NoSQL – Redis, Amazon Elasticache, BDM</li>
+<li>GNU/Linux – My daily driver for my desktop and servers. I have experience in wide variety of Systemd and SystemV-based distros, including some shell scripting.</li>
+<li>VMs – Docker/Docker Compose, Vagrant</li>
+<li>Lua – Openresty, MoonScript, Love (Box2D-based engine)</li>
+</ul>
+<h2 id="fun-side-projects">Fun Side Projects</h2>
+<ul>
+<li><strong><a href="https://hestiapi.com/" target="_blank">HestiaPi</a></strong> - Open source smart thermostat I designed the UI for and some of the hardware design.</li>
+<li><strong><a href="https://rvagamejams.com/learn2love/" target="_blank">learn2love</a></strong> - A book I’ve written for beginners on how to program with Lua and write games.</li>
+<li><strong><a href="https://github.com/gfax/junkyard-brawl" target="_blank">Junkyard Brawl</a></strong> - Card game I designed turned into an IRC game turned into a node module.</li>
+<li><strong>Learning programming languages</strong> - Occasionally I go down a rabbit hole trying out a new language. I’ve done coding challenges in everything from Lisp, to C, to Z80 and 6502 assembly.</li>
+<li><strong>Retro game development</strong> - Ask me about my NES and Genesis games.</li>
+<li>Brewing Kombucha!</li>
+</ul>
+<hr />
+<blockquote>
+<p>Email: <a href="mailto:jay@gfax.ch" class="email">jay@gfax.ch</a></p>
+<p>Location: Midlothian, VA, USA</p>
+<p>Github: <a href="https://github.com/jaythomas" class="uri" target="_blank">https://github.com/jaythomas</a></p>
+<p>CodeWars: <a href="https://www.codewars.com/users/jaythomas" class="uri" target="_blank">https://www.codewars.com/users/jaythomas</a></p>
+</blockquote>
+</body>
+</html>
