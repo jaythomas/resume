@@ -30,8 +30,8 @@ Experience
 - Migrated code from jQuery/AngularJS to Vue.js.
 - Migrated frontend from rails 3 to webpack with babel.
 - Built open source tools to ease developers with migrating legacy JS code.
-  - [vue-state-tree] - A lightweight yet scalable state management solution that leverages Vue's observability engine. Unlike Vuex, this solution makes your state tree agnostic of the UI framework so that it is interoperable with apps that are simultaneously using multiple frameworks – possibly in a transitory phase of migrating from Ember/AngularJS to Vue.js.
-  - [angular-initializer] - A library for building out a module dependency tree with a legacy AngularJS app. This allows you to do rapid unit testing without tons of boilerplate in your spec files as the dependencies become self-defined.
+  - [vue-state-tree] - A lightweight yet scalable state management solution that leverages Vue's observability engine.
+  - [angular-initializer] - An AngularJS library that enables building efficient source trees with ES modules and allows rapid unit testing without tons of boilerplate in your spec files.
 
 **Full stack developer and engineer, ChartIQ (2 years)**
 
@@ -41,8 +41,6 @@ Experience
 - Provided consulting for business clients, building multi-chart integrations and dashboards for companies such as [eToro](https://www.etoro.com/).
 - Provided developer training and mentoring.
 - Improved stability and performance on a NodeJS backend with high velocity cryptocurrency trading.
-- Worked with devops to create AWS auto-scaling for SAAS products.
-- Built web application integrations for the Electron-based [Finsemble](https://www.chartiq.com/finsemble/) desktop.
 
 **Full stack developer and engineer, SingleComm LLC (2.5 years)**
 
@@ -50,19 +48,15 @@ Experience
 - Lead developer in a team of 7, responsible for delegating tasks and ensuring code quality.
 - Helped build the backend API layer using technologies such as Ruby on Rails and Lua for a unique, high-performance, and low-latency RESTful server.
 - Created a roadmap for transitioning the web application from AngularJS to Angular.
-- Formalized design patterns across applications.
-- Created setup for continuous integrations.
-- Designed tools and scripts for continuous deployment.
+- Designed and scripted processes for continuous integration and continuous desployment.
 
 **Web designer, freelance (3 years)**
 
 - Designed websites based on client specifications with tools such as Drupal, Wordpress, Ruby on Rails, JQuery, and Sinatra.
-- Developed a behavior of self-teaching.
 
 **System administrator, Network Techs Inc. and Tailored Data Solutions LLC (6 years)**
 
 - System administrator and devops for small businesses.
-- Worked with in a wide range of environments from bare metal servers, to VMs and cloud-based solutions.
 
 
 Tools and Frameworks
