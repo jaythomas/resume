@@ -36,11 +36,11 @@ Experience
 **Full stack developer and engineer, ChartIQ (2 years)**
 
 - Developed canvas-based [charting software](https://demo.chartiq.com/), and helped formalize development processes around the product.
+- Improved stability and performance on a NodeJS backend with high velocity cryptocurrency trading.
 - Migrated legacy applications from AngularJS to Vue.
 - Instilled automated testing and code coverage in products company wide.
 - Provided consulting for business clients, building multi-chart integrations and dashboards for companies such as [eToro](https://www.etoro.com/).
 - Provided developer training and mentoring.
-- Improved stability and performance on a NodeJS backend with high velocity cryptocurrency trading.
 
 **Full stack developer and engineer, SingleComm LLC (2.5 years)**
 
@@ -48,7 +48,7 @@ Experience
 - Lead developer in a team of 7, responsible for delegating tasks and ensuring code quality.
 - Helped build the backend API layer using technologies such as Ruby on Rails and Lua for a unique, high-performance, and low-latency RESTful server.
 - Created a roadmap for transitioning the web application from AngularJS to Angular.
-- Designed and scripted processes for continuous integration and continuous desployment.
+- Designed and scripted processes for continuous integration and continuous deployment.
 
 **Web designer, freelance (3 years)**
 
@@ -70,6 +70,7 @@ Tools and Frameworks
 - Styling – Bootstrap, CSS3, SASS and LESS
 - Cloud services – Amazon AWS, Heroku, Digital Ocean
 - NoSQL – Redis, Amazon Elasticache, BDM
+- SQL - PostgreSQL, MariaDB
 - GNU/Linux – My daily driver for my desktop and servers. I have experience in wide variety of Systemd and SystemV-based distros, including some shell scripting.
 - VMs – Docker/Docker Compose, Vagrant
 - Lua – Openresty, MoonScript, Love (Box2D-based engine)
@@ -78,9 +79,9 @@ Tools and Frameworks
 Fun Side Projects
 -----------------
 
-- **[HestiaPi]** - Open source smart thermostat I designed the UI for and some of the hardware design.
+- **[HestiaPi]** - Open source smart thermostat I designed the UI for and some of the hardware.
 - **[learn2love]** - A book I've written for beginners on how to program with Lua and write games.
-- **[Junkyard Brawl]** - Card game I designed turned into an IRC game turned into a node module.
+- **[Junkyard Brawl]** - Card game I designed, this is a node module implementation of it.
 - **Learning programming languages** - Occasionally I go down a rabbit hole trying out a new language. I've done coding challenges in everything from Lisp, to C, to Z80 and 6502 assembly.
 - **Retro game development** - Ask me about my NES and Genesis games.
 - Brewing Kombucha!
