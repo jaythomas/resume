@@ -62,7 +62,7 @@ Experience
 Tools and Frameworks
 --------------------
 
-- JavaScript/NodeJS – Webpack, Babel, Vue.js, Express, Apollo GraphQL, AngularJS, React, mobx/mobx-state-tree, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, Gulp, CoffeeScript
+- JavaScript/NodeJS – Webpack, Babel, Vue.js, Express, Apollo GraphQL, AngularJS, React, mobx/mobx-state-tree, Redux, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, Gulp, CoffeeScript
 - Testing frameworks - Jest, Cypress, Ava, Cucumber, WebdriverIO, Karma, Jasmine, Rspec
 - Ruby – Ruby on Rails, Active Record, Active Merchant, Sinatra, Rubocop
 - Elixir – Phoenix, GenServer
