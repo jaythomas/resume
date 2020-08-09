@@ -62,11 +62,11 @@ Experience
 Tools and Frameworks
 --------------------
 
-- JavaScript/NodeJS – Webpack, Babel, Vue.js, Express, Apollo GraphQL, AngularJS, React, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, Gulp, CoffeeScript
+- JavaScript/NodeJS – Webpack, Babel, Vue.js, Express, Apollo GraphQL, AngularJS, React, mobx/mobx-state-tree, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, Gulp, CoffeeScript
 - Testing frameworks - Jest, Cypress, Ava, Cucumber, WebdriverIO, Karma, Jasmine, Rspec
 - Ruby – Ruby on Rails, Active Record, Active Merchant, Sinatra, Rubocop
 - Elixir – Phoenix, GenServer
-- Rust – My current language of choice for hobby projects. I love the thread safety of Rust and would love to undertake a WebAssembly project at some point.
+- Rust – Actix, Diesel, Juniper
 - Styling – Bootstrap, CSS3, SASS and LESS
 - Cloud services – Amazon AWS, Heroku, Digital Ocean
 - NoSQL – Redis, Amazon Elasticache, BDM
