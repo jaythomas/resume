@@ -6,12 +6,143 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>resume</title>
   <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     span.underline{text-decoration: underline;}
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -129,6 +260,13 @@
 <li><strong>Cooperation with my team.</strong> I like to know that I’m working with standardized practices and design patterns. It’s nearly impossible to be successful when developers are not on the same page with design concepts. For example, I like to use the principles of <a href="http://12factor.net/" target="_blank">The Twelve-Factor App</a> for web application platforms and <a href="https://semver.org/" target="_blank">semVer</a> for my versioning.</li>
 </ul>
 <h2 id="experience">Experience</h2>
+<p><strong>Frontend developer, Techtronic Industries (1 year, current)</strong></p>
+<ul>
+<li>Created <a href="https://ryobitools.com" target="_blank">ryobitools.com</a> using Nuxt for server-side rendering.</li>
+<li>Introduced new features for <a href="https://harttools.com" target="_blank">harttools.com</a>.</li>
+<li>Built CMS functionality in Elixir Phoenix and Rails.</li>
+<li>Integrated testing with Cypress and Jest.</li>
+</ul>
 <p><strong>Full stack developer and engineer, Dorsata Inc. (2 years)</strong></p>
 <ul>
 <li>Migrated code from jQuery/AngularJS to Vue.js.</li>
@@ -168,24 +306,24 @@
 <ul>
 <li>JavaScript/NodeJS – Webpack, Babel, Vue.js, Express, Apollo GraphQL, AngularJS, React, mobx/mobx-state-tree, Redux, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, Gulp, CoffeeScript</li>
 <li>Testing frameworks - Jest, Cypress, Ava, Cucumber, WebdriverIO, Karma, Jasmine, Rspec</li>
+<li>Rust – Actix/Actix Web, Diesel, Clap, Serde</li>
+<li>Styling – Bootstrap, CSS3, SASS and LESS</li>
 <li>Ruby – Ruby on Rails, Active Record, Active Merchant, Sinatra, Rubocop</li>
 <li>Elixir – Phoenix, GenServer</li>
-<li>Rust – Actix, Diesel, Juniper</li>
-<li>Styling – Bootstrap, CSS3, SASS and LESS</li>
+<li>SQL - PostgreSQL, SQLite, MariaDB</li>
+<li>NoSQL – Redis, Amazon Elasticache, Berkeley DB</li>
 <li>Cloud services – Amazon AWS, Heroku, Digital Ocean</li>
-<li>NoSQL – Redis, Amazon Elasticache, BDM</li>
-<li>SQL - PostgreSQL, MariaDB</li>
-<li>GNU/Linux – My daily driver for my desktop and servers. I have experience in wide variety of Systemd and SystemV-based distros, including some shell scripting.</li>
+<li>GNU/Linux – My daily driver for my desktop and servers.</li>
 <li>VMs – Docker/Docker Compose, Vagrant</li>
 <li>Lua – Openresty, MoonScript, Love (Box2D-based engine)</li>
 </ul>
 <h2 id="fun-side-projects">Fun Side Projects</h2>
 <ul>
+<li><strong><a href="https://github.com/JTCC-Programming-Club/weather-station" target="_blank">Weather Station App</a></strong> - Taught a workshow on using Rust, Vue.js, and Arduino to program weather stations and collect data.</li>
 <li><strong><a href="https://hestiapi.com/" target="_blank">HestiaPi</a></strong> - Open source smart thermostat I designed the UI for and some of the hardware.</li>
 <li><strong><a href="https://rvagamejams.com/learn2love/" target="_blank">learn2love</a></strong> - A book I’ve written for beginners on how to program with Lua and write games.</li>
 <li><strong><a href="https://github.com/gfax/junkyard-brawl" target="_blank">Junkyard Brawl</a></strong> - Card game I designed, this is a node module implementation of it.</li>
-<li><strong>Learning programming languages</strong> - Occasionally I go down a rabbit hole trying out a new language. I’ve done coding challenges in everything from Lisp, to C, to Z80 and 6502 assembly.</li>
-<li><strong>Retro game development</strong> - Ask me about my NES and Genesis games.</li>
+<li><strong>Learning programming languages</strong> - Occasionally I go down a rabbit hole trying out a new language. I’ve done coding challenges in everything from Lisp, to C, to 68K and 6502 assembly.</li>
 <li>Brewing Kombucha!</li>
 </ul>
 <hr />
@@ -193,6 +331,7 @@
 <p>Email: <a href="mailto:jay@gfax.ch" class="email">jay@gfax.ch</a></p>
 <p>Location: Midlothian, VA, USA</p>
 <p>Github: <a href="https://github.com/jaythomas" class="uri" target="_blank">https://github.com/jaythomas</a></p>
+<p>Gitlab: <a href="https://gitlab.com/jay-thomas" class="uri" target="_blank">https://gitlab.com/jay-thomas</a></p>
 <p>CodeWars: <a href="https://www.codewars.com/users/jaythomas" class="uri" target="_blank">https://www.codewars.com/users/jaythomas</a></p>
 </blockquote>
 </body>

@@ -25,6 +25,13 @@ Guiding Principles
 Experience
 ----------
 
+**Frontend developer, Techtronic Industries (1 year, current)**
+
+- Created [ryobitools.com](https://ryobitools.com) using Nuxt for server-side rendering.
+- Introduced new features for [harttools.com](https://harttools.com).
+- Built CMS functionality in Elixir Phoenix and Rails.
+- Integrated testing with Cypress and Jest.
+
 **Full stack developer and engineer, Dorsata Inc. (2 years)**
 
 - Migrated code from jQuery/AngularJS to Vue.js.
@@ -64,14 +71,14 @@ Tools and Frameworks
 
 - JavaScript/NodeJS – Webpack, Babel, Vue.js, Express, Apollo GraphQL, AngularJS, React, mobx/mobx-state-tree, Redux, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, Gulp, CoffeeScript
 - Testing frameworks - Jest, Cypress, Ava, Cucumber, WebdriverIO, Karma, Jasmine, Rspec
+- Rust – Actix/Actix Web, Diesel, Clap, Serde
+- Styling – Bootstrap, CSS3, SASS and LESS
 - Ruby – Ruby on Rails, Active Record, Active Merchant, Sinatra, Rubocop
 - Elixir – Phoenix, GenServer
-- Rust – Actix, Diesel, Juniper
-- Styling – Bootstrap, CSS3, SASS and LESS
+- SQL - PostgreSQL, SQLite, MariaDB
+- NoSQL – Redis, Amazon Elasticache, Berkeley DB
 - Cloud services – Amazon AWS, Heroku, Digital Ocean
-- NoSQL – Redis, Amazon Elasticache, BDM
-- SQL - PostgreSQL, MariaDB
-- GNU/Linux – My daily driver for my desktop and servers. I have experience in wide variety of Systemd and SystemV-based distros, including some shell scripting.
+- GNU/Linux – My daily driver for my desktop and servers.
 - VMs – Docker/Docker Compose, Vagrant
 - Lua – Openresty, MoonScript, Love (Box2D-based engine)
 
@@ -79,11 +86,11 @@ Tools and Frameworks
 Fun Side Projects
 -----------------
 
+- **[Weather Station App]** - Taught a workshow on using Rust, Vue.js, and Arduino to program weather stations and collect data.
 - **[HestiaPi]** - Open source smart thermostat I designed the UI for and some of the hardware.
 - **[learn2love]** - A book I've written for beginners on how to program with Lua and write games.
 - **[Junkyard Brawl]** - Card game I designed, this is a node module implementation of it.
-- **Learning programming languages** - Occasionally I go down a rabbit hole trying out a new language. I've done coding challenges in everything from Lisp, to C, to Z80 and 6502 assembly.
-- **Retro game development** - Ask me about my NES and Genesis games.
+- **Learning programming languages** - Occasionally I go down a rabbit hole trying out a new language. I've done coding challenges in everything from Lisp, to C, to 68K and 6502 assembly.
 - Brewing Kombucha!
 
 ----
@@ -94,11 +101,14 @@ Fun Side Projects
 >
 > Github: <https://github.com/jaythomas>
 >
+> Gitlab: <https://gitlab.com/jay-thomas>
+>
 > CodeWars: <https://www.codewars.com/users/jaythomas>
 
 [The Twelve-Factor App]: http://12factor.net/
 [angular-initializer]: https://github.com/jaythomas/angular-initializer
 [semVer]: https://semver.org/
+[Weather Station App]:https://github.com/JTCC-Programming-Club/weather-station
 [HestiaPi]: https://hestiapi.com/
 [learn2love]: https://rvagamejams.com/learn2love/
 [Junkyard Brawl]: https://github.com/gfax/junkyard-brawl
