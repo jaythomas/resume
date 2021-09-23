@@ -149,9 +149,8 @@
   <![endif]-->
   <style type="text/css">
   /*
-   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
-   *
    * CSS for making a resume with pandoc. Inspired by moderncv.
+   * Original version Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
    *
    * This CSS document is delivered to you under the CC BY-SA 3.0 License.
    * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
@@ -159,95 +158,92 @@
 
   /* Whole document */
   body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      background: #FFFFFF;
-      padding: 10px 10px 10px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    background: #fdfdfd;
+    padding: 10px 10px 10px 10px;
   }
 
-  /* Title of the resume */
   h1 {
-      font-size: 55px;
-      color: #2d7cc2;
-      text-align:center;
-      margin-bottom:15px;
+    font-size: 55px;
+    color: #2d7cc2;
+    text-align: center;
+    margin-bottom: 15px;
   }
   /* h1:hover { */
-  /*     background-color: #757575; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
+  /*   background-color: #757575; */
+  /*   color: #fdfdfd; */
+  /*   text-shadow: 1px 1px 1px #333; */
   /* } */
 
   /* Titles of categories */
   h2 {
-      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
-      color: #2d7cc2;
+    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+    color: #2d7cc2;
   }
+
   /* There is a bar just before each category */
   h2:before {
-      content: "";
-      display: inline-block;
-      margin-right:1%;
-      width: 16%;
-      height: 10px;
-      /* This is called "rulecolor" in the ConTeXt stylesheet. */
-      background-color: #4290d6;
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    /* This is called "rulecolor" in the ConTeXt stylesheet. */
+    background-color: #4290d6;
   }
-  /* h2:hover { */
-  /*     background-color: #2d7cc2; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
-  /* } */
+
+  h3 {
+    font-size: 12px;
+    text-align: center;
+  }
 
   /* Definitions */
   dt {
-      float: left;
-      clear: left;
-      width: 17%;
-      font-weight: bold;
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
   }
+
   dd {
-      margin-left: 17%;
-      margin-bottom:7px;
+    margin-left: 17%;
+    margin-bottom: 7px;
   }
+
   p {
-      margin-top:0;
-      margin-bottom:7px;
+    margin-top: 0;
+    margin-bottom: 7px;
   }
 
-  /* Blockquotes */
   blockquote {
-      text-align: center
+    border: none;
+    line-height: 1.1;
+    text-align: center
   }
 
-  /* Links */
   a {
-      text-decoration: none;
-      color: #2d7cc2;
-  }
-  a:hover, a:active {
-      background-color: #2d7cc2;
-      color: #FFFFFF;
-      text-shadow: 1px 1px 1px #333;
+    text-decoration: none;
+    color: #2d7cc2;
   }
 
-  /* Horizontal separators */
+  a:hover, a:active {
+    color: #2d7cc2;
+  }
+
   hr {
-      color: #A6A6A6;
+    color: #A6A6A6;
   }
 
   table {
-      width: 100%;
+    width: 100%;
   }
   </style>
 </head>
 <body>
 <h1 id="jay-thomas">Jay Thomas</h1>
-<blockquote>
-<p>(An up-to-date copy of this resume’s source code</p>
-<p>can be found at <a href="https://github.com/jaythomas/resume" class="uri" target="_blank">https://github.com/jaythomas/resume</a>.)</p>
-</blockquote>
+<p>An up-to-date copy of this resume’s source can be found at: <a href="https://github.com/jaythomas/resume" class="uri" target="_blank">https://github.com/jaythomas/resume</a></p>
 <hr />
 <blockquote>
 <p>I’m fortunate that I get to do what I love as my career. My aim is to be employed by a company that values the quality of their software and allows me to be proactive in integrating the best tools for the job.</p>
@@ -323,7 +319,7 @@
 <li><strong><a href="https://hestiapi.com/" target="_blank">HestiaPi</a></strong> - Open source smart thermostat I designed the UI for and some of the hardware.</li>
 <li><strong><a href="https://rvagamejams.com/learn2love/" target="_blank">learn2love</a></strong> - A book I’ve written for beginners on how to program with Lua and write games.</li>
 <li><strong><a href="https://github.com/gfax/junkyard-brawl" target="_blank">Junkyard Brawl</a></strong> - Card game I designed, this is a node module implementation of it.</li>
-<li><strong>Learning programming languages</strong> - Occasionally I go down a rabbit hole trying out a new language. I’ve done coding challenges in everything from Lisp, to C, to 68K and 6502 assembly.</li>
+<li><strong>Learning programming languages</strong> - Everything from 6502 assembly to Scratch.</li>
 <li>Brewing Kombucha!</li>
 </ul>
 <hr />

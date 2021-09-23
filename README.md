@@ -1,9 +1,9 @@
 Jay Thomas
 ============
 
-> (An up-to-date copy of this resume's source code
->
-> can be found at <https://github.com/jaythomas/resume>.)
+An up-to-date copy of this resume's
+source can be found at: <https://github.com/jaythomas/resume>
+
 
 ----
 
@@ -71,9 +71,9 @@ Tools and Frameworks
 
 - JavaScript/NodeJS – Webpack, Babel, Vue.js, Express, Apollo GraphQL, AngularJS, React, mobx/mobx-state-tree, Redux, Gulp, ES6+, ESlint, Highcharts, D3, JQuery, Typescript, Gulp, CoffeeScript
 - Testing frameworks - Jest, Cypress, Ava, Cucumber, WebdriverIO, Karma, Jasmine, Rspec
-- Rust – Actix/Actix Web, Diesel, Clap, Serde
+- Rust – Actix/Actix Web, Diesel, Clap, Serde, Tokio
 - Styling – Bootstrap, CSS3, SASS and LESS
-- Ruby – Ruby on Rails, Active Record, Active Merchant, Sinatra, Rubocop
+- Ruby – Ruby on Rails, Active Record, Active Merchant, Sinatra
 - Elixir – Phoenix, GenServer
 - SQL - PostgreSQL, SQLite, MariaDB
 - NoSQL – Redis, Amazon Elasticache, Berkeley DB
@@ -90,7 +90,7 @@ Fun Side Projects
 - **[HestiaPi]** - Open source smart thermostat I designed the UI for and some of the hardware.
 - **[learn2love]** - A book I've written for beginners on how to program with Lua and write games.
 - **[Junkyard Brawl]** - Card game I designed, this is a node module implementation of it.
-- **Learning programming languages** - Occasionally I go down a rabbit hole trying out a new language. I've done coding challenges in everything from Lisp, to C, to 68K and 6502 assembly.
+- **Learning programming languages** - Everything from 6502 assembly to Scratch.
 - Brewing Kombucha!
 
 ----
